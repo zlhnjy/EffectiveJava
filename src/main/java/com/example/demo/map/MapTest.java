@@ -17,7 +17,7 @@ public class MapTest {
         test1();
     }
 
-    public static void test1() {
+    private static void test1() {
         Map<String, String> map = new HashMap<>();
         map.put("aaa", "111");
         map.put("bbb", "222");
